@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { MatNativeDateModule, MatButtonModule } from '@angular/material';
 import { DemoMaterialModule } from './core/material.module';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import 'hammerjs';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     HttpClientModule,
     MatNativeDateModule,
     MatButtonModule,
-    DemoMaterialModule
+    DemoMaterialModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
