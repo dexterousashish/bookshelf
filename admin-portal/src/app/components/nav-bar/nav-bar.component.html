@@ -1,0 +1,10 @@
+<mat-toolbar class="mat-primary">
+  <mat-toolbar-row>
+    <h3 [style.color]="'white'">ADMIN PORTAL</h3>
+    <span class="example-spacer"></span>
+    <button mat-button [hidden]="!loggedIn">View Book List</button>
+    <button mat-button [hidden]="!loggedIn">Add a book</button>
+    <button mat-button [hidden]="!loggedIn">Log Out</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+
